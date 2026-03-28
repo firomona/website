@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* NAV */
+header {
+  background: #fff;
+  padding: 15px 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a.active {
+  color: #1e90ff;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text .hello {
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.hero-text button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  padding: 80px;
+  gap: 50px;
+}
+
+.about img {
+  width: 300px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+}
+
+.features {
+  margin: 20px 0;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  padding: 80px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* CONTACT */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+}
